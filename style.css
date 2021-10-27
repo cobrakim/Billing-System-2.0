@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+
+} 
+
+.flexview {
+    display: flex;
+}
+
+.flexview p {
+    flex: 1;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 10px;
+}
+
+.content {
+    height: 85vh;
+}
+
+
+.fruit-input {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.remove-btn {
+    border: none;
+    background: rgb(255, 68, 68);
+    color: white;
+}
+
+.remove-btn:hover {
+    background: rgb(194, 50, 50);
+    color: white;
+}
+
+.large {
+    font-size: 1.2rem;
+}
+
+form {
+    height: 60vh;
+    padding-top: 70px;
+}
+
+.total {
+    height: 25vh;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
